@@ -200,7 +200,7 @@ In short, the project runs locally today and can be extended to run in **Kuberne
 
 ## API endpoints
 <p align="center">
-  <img src="assets/images/swagger_ui.png" alt="RAG-NL Platform Architecture" width="1000" />
+  <img src="assets/images/swagger_ui.png" alt="Swagger UI" width="1000" />
 </p>
 
 - **Swagger UI:** `http://localhost:8000/docs`
@@ -281,7 +281,7 @@ curl -s -X POST "http://localhost:8000/ask" \
 ```
 #### Using Swagger UI:
 <p align="center">
-  <img src="assets/images/swagger_ask.png" alt="RAG-NL Platform Architecture" width="1000" />
+  <img src="assets/images/swagger_ask.png" alt="Swagger /ask endpont" width="1000" />
 </p>
 ---
 
