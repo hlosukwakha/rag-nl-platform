@@ -1,0 +1,31 @@
+embeddings:
+  default: sentence-transformers
+  providers:
+    sentence-transformers:
+      model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+    huggingface:
+      model: intfloat/multilingual-e5-base
+    jina:
+      model: jinaai/jina-embeddings-v3
+    nomic:
+      model: nomic-ai/nomic-embed-text-v1.5
+    cognita:
+      model: configurable
+    llmware:
+      model: configurable
+
+llm:
+  provider: huggingface
+  models:
+    llama: meta-llama/Llama-3.1-8B-Instruct
+    mistral: mistralai/Mistral-7B-Instruct-v0.3
+    phi: microsoft/phi-2
+    deepseek: deepseek-ai/deepseek-llm-7b-chat
+    qwen: Qwen/Qwen2.5-7B-Instruct
+    gemma: google/gemma-2-9b-it
+
+retrieval:
+  lexical: elasticsearch
+  vector: qdrant
+  hybrid_default: true
+  reranker: jina
