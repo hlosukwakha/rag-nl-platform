@@ -281,7 +281,7 @@ curl -s -X POST "http://localhost:8000/ask" \
 ```
 #### Using Swagger UI:
 <p align="center">
-  <img src="assets/images/swagger_ask.png" alt="Swagger /ask endpont" width="1000" />
+  <img src="assets/images/swagger1_ask.png" alt="Swagger /ask endpont" width="1000" />
 </p>
 ---
 
