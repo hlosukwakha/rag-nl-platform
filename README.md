@@ -203,14 +203,9 @@ In short, the project runs locally today and can be extended to run in **Kuberne
   <img src="assets/images/swagger_ui.png" alt="RAG-NL Platform Architecture" width="1000" />
 </p>
 
-- **Swagger UI:** `http://localhost:8000/doc`
+- **Swagger UI:** `http://localhost:8000/docs`
 - **Sources:** `http://localhost:8000/sources`
 - **Ask:** `http://localhost:8000/ask`
-
-
-
-> Note: many FastAPI projects also expose Swagger at `/docs`. This README preserves the endpoint names requested for this repository documentation.
-
 ---
 
 ## Sample API usage
